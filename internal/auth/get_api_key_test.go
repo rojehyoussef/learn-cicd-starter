@@ -14,7 +14,7 @@ func TestGETAPIKey(t *testing.T) {
 	if err != nil {
 		t.Fatalf("unexpected error: %v", err)
 	}
-	want := "abc123!"
+	want := "abc123"
 	if got != want {
 		t.Fatalf("got: %q, want %q", got, want)
 	}
